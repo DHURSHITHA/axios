@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React CRUD Application using Axios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Overview
+This project is a simple React application that demonstrates CRUD (Create, Read, Update, Delete) operations using Axios and a mock REST API. The application fetches posts from an API, displays them in a table, and allows users to add, edit, update, and delete posts.
 
-## Available Scripts
+##  Features
+- Fetch posts from an API (Read)
+- Add new posts (Create)
+- Edit and update existing posts (Update)
+- Delete posts (Delete)
+- Controlled form inputs
+- Conditional rendering for Add / Update modes
+- Clean and simple UI using Bootstrap
 
-In the project directory, you can run:
+## 🛠️ Technologies Used
+- React (Functional Components)
+- React Hooks (`useState`, `useEffect`)
+- Axios (HTTP requests)
+- JSONPlaceholder (Mock REST API)
+- Bootstrap (Styling)
 
-### `npm start`
+##  API Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ How It Works
+1. When the component loads, posts are fetched using `axios.get()`.
+2. The first 5 posts are displayed in a table.
+3. Users can:
+   - Add a new post using `axios.post()`
+   - Edit a post using `axios.put()`
+   - Delete a post using `axios.delete()`
+4. State is managed using React Hooks.
+5. Conditional buttons are shown for Add and Update actions.
 
-### `npm test`
+##  How to Run the Project
+1. Clone the repository
+   git clone <repository-url>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies
+   npm install
+   
+3. Start the application
+   npm start
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Output
+- Displays a list of posts in a table
+- Allows inline editing and deletion of posts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Learning Outcomes
+- Understanding CRUD operations in React
+- Working with REST APIs using Axios
+- Managing state and side effects using hooks
+- Building reusable and maintainable components
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusion
+This project is a beginner-friendly example to understand how React interacts with APIs and handles CRUD operations efficiently using modern React practices.
