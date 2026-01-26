@@ -12,7 +12,7 @@ This project is a simple React application that demonstrates CRUD (Create, Read,
 - Conditional rendering for Add / Update modes
 - Clean and simple UI using Bootstrap
 
-## 🛠️ Technologies Used
+## Technologies Used
 - React (Functional Components)
 - React Hooks (`useState`, `useEffect`)
 - Axios (HTTP requests)
@@ -22,7 +22,7 @@ This project is a simple React application that demonstrates CRUD (Create, Read,
 ##  API Used
 
 
-## ⚙️ How It Works
+## How It Works
 1. When the component loads, posts are fetched using `axios.get()`.
 2. The first 5 posts are displayed in a table.
 3. Users can:
